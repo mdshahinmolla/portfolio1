@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container_part{
+    width: 100%;
+    min-height: 740px;
+    background-color: #fcdb00;
+}
+
+.nav_part{
+    max-width: 940px;
+    margin: auto;
+    padding-top:20px;
+}
+
+.logo{
+    width: 50px;
+    height: auto;
+}
+.logo_name{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+.nav-link{
+    color: black !important;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#fastimage{
+    width: 300px;
+    height: auto;
+}
+
+.row_design{
+    margin: auto;
+    padding: 50px 150px;
+    justify-items: center;
+}
+
+.style_new{
+    padding-left: 200px;
+}
+
+p{
+    padding: 10px 0;
+}
+
+.feture_icon .fa-brands{
+    font-size: 50px;
+    margin: 0 10px;
+    padding-top: 20px;
+}
+
+.fa-solid{
+    font-size: 40px;
+    margin-right: 10px;
+    padding-top: 20px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #838383;
+}
+/*---------- feature--------------------------*/
+.feature_part{
+    width: 100%;
+    min-height: 350px;
+    background-color: #fff;
+    padding: 90px 0;
+}
+
+.container_feature{
+    max-width: 940px;
+    height: auto;
+    margin: auto;
+}
+
+.header_text{
+    text-align: center;
+}
+
+.card_part{
+    justify-content: space-between !important;
+}
+.card{
+    width: 32%;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+/*------------Cart part end--------------------*/
+
+/*----------Footer part start---------------------*/
+.footer_part{
+    background-color: #000;
+    width: 100%;
+    min-height: 50px;
+    padding-bottom: 80px;
+}
+.container_footer{
+    max-width: 940px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.suscriber_part{
+    padding: 50px 0 80px 0;
+}
+.suscriber_part h1{
+    font-size: 35px;
+    font-weight: 800;
+    color:#fcdb00;
+}
+.suscriber_part p{
+    color: #838383;
+}
+
+#exampleInputEmail1{
+    width: 70% !important;
+    display: inline;
+}
+
+.social-icon{
+    margin: auto;
+    padding: 0;
+}
+
+.social-icon .icon_link{
+    font-size: 50px;
+    padding: 0 10px;
+    color: #fcdb00;
+    margin: auto;
+    justify-content: space-around;
+}
+
+
+.address_part{
+    color: #fff;
+    text-align: left;
+}
+
+.footer_col_2 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+
+.footer_links{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+
+.footer_links:hover{
+    color: #fcdb00;
+}
+
